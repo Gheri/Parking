@@ -1,0 +1,40 @@
+{
+  "name": "parking",
+  "version": "1.0.0",
+  "description": "API for vehicle parking.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Gheri Rupchandani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "fastify": "^3.4.1",
+    "fastify-auth0-verify": "^0.3.1",
+    "fastify-cors": "^4.1.0",
+    "fastify-multipart": "^3.2.0",
+    "fastify-plugin": "^2.3.4",
+    "fastify-redis": "^4.0.3",
+    "fastify-routes": "^3.0.1",
+    "fastify-sensible": "^3.0.1",
+    "fastify-swagger": "^3.3.0",
+    "helmet": "^4.2.0",
+    "http-status": "^1.5.0",
+    "joi": "^17.3.0",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.16",
+    "nanoid": "^3.1.18",
+    "object-hash": "^2.0.3",
+    "pm2": "^4.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
